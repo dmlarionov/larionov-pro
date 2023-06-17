@@ -1,15 +1,15 @@
 import defaultImage from './assets/images/default.png';
 
 const CONFIG = {
-  name: 'AstroWind',
+  name: 'Larionov Dmitriy',
 
   origin: 'https://astrowind.vercel.app',
   basePathname: '/',
   trailingSlash: false,
 
-  title: 'AstroWind — Free template for create a website with Astro + Tailwind CSS',
+  title: 'Larionov Dmitriy – Software Architect and IT blogger',
   description:
-    '🚀 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs.',
+    '🚀 The cool blog about technology',
   defaultImage: defaultImage,
 
   defaultTheme: 'system', // Values: "system" | "light" | "dark" | "light:only" | "dark:only"
@@ -32,7 +32,7 @@ const CONFIG = {
     postsPerPage: 4,
 
     post: {
-      permalink: '/%slug%', // Variables: %slug%, %year%, %month%, %day%, %hour%, %minute%, %second%, %category%
+      permalink: '/%year%/%slug%', // Variables: %slug%, %year%, %month%, %day%, %hour%, %minute%, %second%, %category%
       noindex: false,
       disabled: false,
     },
